@@ -1,0 +1,19 @@
+{
+    "SNMP": {
+        "ProtocolEnabled": true,
+        "EnableSNMPv2c": true,
+        "EnableSNMPv3": false,
+        "CommunityStrings": [
+            {
+                "Name": "SNMPv2c public community",
+                "AccessMode": "Limited",
+                "CommunityString": "public"
+            },
+            {
+                "Name": "SNMPv2c private community",
+                "AccessMode": "Full",
+                "CommunityString": "private"
+            }
+        ]
+    }
+}
